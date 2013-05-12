@@ -1,19 +1,19 @@
--- Az egyes oszt√°lyok l√©tsz√°ma
+-- Az egyes oszt·lyok lÈtsz·ma
 SELECT
-	evfolyam as "√âvfolyam",
-	osztaly as "Oszt√°ly",
-	COUNT(*) as "L√©tsz√°m"
+	evfolyam as "…vfolyam",
+	osztaly as "Oszt·ly",
+	COUNT(*) as "LÈtsz·m"
 FROM
 	diak
 GROUP BY
 	evfolyam, osztaly
 ORDER BY
-	"√âvfolyam", "Oszt√°ly" ASC;
+	"…vfolyam", "Oszt·ly" ASC;
 
--- A hetedik ker√ºletben lak√≥, 9. ut√°n j√°r√≥ di√°kok sz√°ma, √©vfolyam szerint csoportos√≠tva
+-- A hetedik ker¸letben lakÛ, 9. ut·n j·rÛ di·kok sz·ma, Èvfolyam szerint csoportosÌtva
 SELECT
-	evfolyam AS "√âvfolyam",
-	COUNT(*) AS "Hetedik ker√ºleti lakosok"
+	evfolyam AS "…vfolyam",
+	COUNT(*) AS "Hetedik ker¸leti lakosok"
 FROM
 	diak
 WHERE
@@ -23,15 +23,15 @@ GROUP BY
 HAVING
 	evfolyam > 9
 ORDER BY 
-	"Hetedik ker√ºleti lakosok" DESC;
+	"Hetedik ker¸leti lakosok" DESC;
 	
--- Az egyes t√°rgyakban el√©rt eredm√©nyek √°tlaga
+-- Az egyes t·rgyakban elÈrt eredmÈnyek ·tlaga
 SELECT
-	targy AS "T√°rgy",
-	AVG(osztalyzat) AS "√Åtlag"
+	targy AS "T·rgy",
+	AVG(osztalyzat) AS "¡tlag"
 FROM
 	ertekeles
 GROUP BY
 	targy
 ORDER BY
-	"√Åtlag" DESC, "T√°rgy" ASC;
+	"¡tlag" DESC, "T·rgy" ASC;

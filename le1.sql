@@ -1,26 +1,26 @@
--- Mely osztÃ¡lyba jÃ¡rnak IrÃ©n nevÅ± diÃ¡kok
+-- Mely osztályba járnak Irén nevû diákok
 SELECT
-	nev AS "NÃ©v",
-	evfolyam AS "Ã‰vfolyam",
-	osztaly AS "OsztÃ¡ly"
+	nev AS "Név",
+	evfolyam AS "Évfolyam",
+	osztaly AS "Osztály"
 FROM diak
-WHERE nev LIKE '%IrÃ©n%'
+WHERE nev LIKE '%Irén%'
 ORDER BY nev;
 
--- A 10.c osztÃ¡ly nÃ©vsora
+-- A 10.c osztály névsora
 SELECT
-	nev AS "NÃ©v"
+	nev AS "Név"
 FROM diak
 WHERE
 	evfolyam = 10 AND
 	osztaly = 'c'
 ORDER BY nev;
 
--- Az Ã¶sszes Ã¶tÃ¶s, idÅ‘pont szerint
+-- Az összes ötös, idõpont szerint
 SELECT
-	nev AS "NÃ©v",
-	targy AS "TÃ¡rgy",
-	datum AS "DÃ¡tum"
+	nev AS "Név",
+	targy AS "Tárgy",
+	datum AS "Dátum"
 FROM ertekeles
 WHERE
 	osztalyzat = 5
