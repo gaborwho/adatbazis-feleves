@@ -1,0 +1,12 @@
+SET serveroutput ON
+CREATE OR REPLACE TRIGGER dbaccess
+BEFORE DELETE OR INSERT OR UPDATE ON ertekeles
+BEGIN
+	IF TO_CHAR(sysdate, 'HH24:MI') NOT BETWEEN '08:00' AND '16:00'
+	THEN
+		RAISE_APPLICATION_ERROR(-20123,'Csak tanítási idõben lehet értékelni!');
+	END IF;
+END;
+/
+SHOW ERRORS
+SET serveroutput OFF

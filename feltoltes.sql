@@ -78,88 +78,95 @@ INSERT INTO diak (nev, anyja_neve, szuletes, evfolyam, osztaly, iranyitoszam, la
 	VALUES ('Veres Márton','Illés Kinga','1996-10-17',10,'c',1075,'Tass Vezér u. 1.');
 
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Bogdán András', 'Fehér Magdolna', '1994-6-11', '2013-05-11', 'Magyar', '1');
+	VALUES ('Bogdán András', 'Fehér Magdolna', '1994-6-11', '2013-05-06', 'Magyar', '1');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Major Marianna', 'Pintér Rita', '1994-10-29', '2013-05-11', 'Zene', '2');
+	VALUES ('Major Marianna', 'Pintér Rita', '1994-10-29', '2013-05-07', 'Zene', '2');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Vass Bernadett', 'Molnár Ágnes', '1996-3-27', '2013-05-11', 'Matematika', '3');
+	VALUES ('Vass Bernadett', 'Molnár Ágnes', '1996-3-27', '2013-05-10', 'Matematika', '3');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Magyar Dezsõ', 'Dudás Ildikó', '1994-6-20', '2013-05-11', 'Magyar', '4');
+	VALUES ('Magyar Dezsõ', 'Dudás Ildikó', '1994-6-20', '2013-05-09', 'Magyar', '4');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Oláh Irén', 'Fábián Fanni', '1997-1-24', '2013-05-11', 'Zene', '5');
+	VALUES ('Oláh Irén', 'Fábián Fanni', '1997-1-24', '2013-05-06', 'Zene', '5');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Juhász Balázs', 'Gáspár Ibolya', '1994-1-27', '2013-05-11', 'Matematika', '1');
+	VALUES ('Juhász Balázs', 'Gáspár Ibolya', '1994-1-27', '2013-05-07', 'Matematika', '1');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Kozma Andrea', 'Boros Anett', '1995-12-11', '2013-05-11', 'Magyar', '2');
+	VALUES ('Kozma Andrea', 'Boros Anett', '1995-12-11', '2013-05-08', 'Magyar', '2');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Gulyás Attila', 'Máté Judit', '1994-5-22', '2013-05-11', 'Zene', '3');
+	VALUES ('Gulyás Attila', 'Máté Judit', '1994-5-22', '2013-05-08', 'Zene', '3');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Tamás Márta', 'Jakab Eszter', '1996-8-21', '2013-05-11', 'Matematika', '4');
+	VALUES ('Tamás Márta', 'Jakab Eszter', '1996-8-21', '2013-05-06', 'Matematika', '4');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Szücs Irén', 'Major Brigitta', '1995-4-1', '2013-05-11', 'Magyar', '5');
+	VALUES ('Szücs Irén', 'Major Brigitta', '1995-4-1', '2013-05-07', 'Magyar', '5');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Székely Klára', 'Sipos Magdolna', '1994-7-28', '2013-05-11', 'Zene', '1');
+	VALUES ('Székely Klára', 'Sipos Magdolna', '1994-7-28', '2013-05-09', 'Zene', '1');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Bognár Norbert', 'Szûcs Nikoletta', '1997-8-21', '2013-05-11', 'Matematika', '2');
+	VALUES ('Bognár Norbert', 'Szûcs Nikoletta', '1997-8-21', '2013-05-07', 'Matematika', '2');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Veres Márton', 'Illés Kinga', '1996-10-17', '2013-05-11', 'Magyar', '3');
+	VALUES ('Veres Márton', 'Illés Kinga', '1996-10-17', '2013-05-10', 'Magyar', '3');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Bogdán András', 'Fehér Magdolna', '1994-6-11', '2013-05-11', 'Zene', '4');
+	VALUES ('Bogdán András', 'Fehér Magdolna', '1994-6-11', '2013-05-09', 'Zene', '4');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Major Marianna', 'Pintér Rita', '1994-10-29', '2013-05-11', 'Matematika', '5');
+	VALUES ('Major Marianna', 'Pintér Rita', '1994-10-29', '2013-05-06', 'Matematika', '5');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Vass Bernadett', 'Molnár Ágnes', '1996-3-27', '2013-05-11', 'Magyar', '1');
+	VALUES ('Vass Bernadett', 'Molnár Ágnes', '1996-3-27', '2013-05-07', 'Magyar', '1');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Magyar Dezsõ', 'Dudás Ildikó', '1994-6-20', '2013-05-11', 'Zene', '2');
+	VALUES ('Magyar Dezsõ', 'Dudás Ildikó', '1994-6-20', '2013-05-08', 'Zene', '2');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Oláh Irén', 'Fábián Fanni', '1997-1-24', '2013-05-11', 'Matematika', '3');
+	VALUES ('Oláh Irén', 'Fábián Fanni', '1997-1-24', '2013-05-09', 'Matematika', '3');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Juhász Balázs', 'Gáspár Ibolya', '1994-1-27', '2013-05-11', 'Magyar', '4');
+	VALUES ('Juhász Balázs', 'Gáspár Ibolya', '1994-1-27', '2013-05-10', 'Magyar', '4');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Kozma Andrea', 'Boros Anett', '1995-12-11', '2013-05-11', 'Zene', '5');
+	VALUES ('Kozma Andrea', 'Boros Anett', '1995-12-11', '2013-05-06', 'Zene', '5');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Gulyás Attila', 'Máté Judit', '1994-5-22', '2013-05-11', 'Matematika', '1');
+	VALUES ('Gulyás Attila', 'Máté Judit', '1994-5-22', '2013-05-10', 'Matematika', '1');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Tamás Márta', 'Jakab Eszter', '1996-8-21', '2013-05-11', 'Magyar', '2');
+	VALUES ('Tamás Márta', 'Jakab Eszter', '1996-8-21', '2013-05-07', 'Magyar', '2');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Szücs Irén', 'Major Brigitta', '1995-4-1', '2013-05-11', 'Zene', '3');
+	VALUES ('Szücs Irén', 'Major Brigitta', '1995-4-1', '2013-05-09', 'Zene', '3');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Székely Klára', 'Sipos Magdolna', '1994-7-28', '2013-05-11', 'Matematika', '4');
+	VALUES ('Székely Klára', 'Sipos Magdolna', '1994-7-28', '2013-05-06', 'Matematika', '4');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Bognár Norbert', 'Szûcs Nikoletta', '1997-8-21', '2013-05-11', 'Magyar', '5');
+	VALUES ('Bognár Norbert', 'Szûcs Nikoletta', '1997-8-21', '2013-05-07', 'Magyar', '5');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Veres Márton', 'Illés Kinga', '1996-10-17', '2013-05-11', 'Zene', '1');
+	VALUES ('Veres Márton', 'Illés Kinga', '1996-10-17', '2013-05-07', 'Zene', '1');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Bogdán András', 'Fehér Magdolna', '1994-6-11', '2013-05-11', 'Matematika', '2');
+	VALUES ('Bogdán András', 'Fehér Magdolna', '1994-6-11', '2013-05-08', 'Matematika', '2');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Major Marianna', 'Pintér Rita', '1994-10-29', '2013-05-11', 'Magyar', '3');
+	VALUES ('Major Marianna', 'Pintér Rita', '1994-10-29', '2013-05-10', 'Magyar', '3');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Vass Bernadett', 'Molnár Ágnes', '1996-3-27', '2013-05-11', 'Zene', '4');
+	VALUES ('Vass Bernadett', 'Molnár Ágnes', '1996-3-27', '2013-05-09', 'Zene', '4');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Magyar Dezsõ', 'Dudás Ildikó', '1994-6-20', '2013-05-11', 'Matematika', '5');
+	VALUES ('Magyar Dezsõ', 'Dudás Ildikó', '1994-6-20', '2013-05-06', 'Matematika', '5');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Oláh Irén', 'Fábián Fanni', '1997-1-24', '2013-05-11', 'Magyar', '1');
+	VALUES ('Oláh Irén', 'Fábián Fanni', '1997-1-24', '2013-05-07', 'Magyar', '1');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Juhász Balázs', 'Gáspár Ibolya', '1994-1-27', '2013-05-11', 'Zene', '2');
+	VALUES ('Juhász Balázs', 'Gáspár Ibolya', '1994-1-27', '2013-05-06', 'Zene', '2');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Kozma Andrea', 'Boros Anett', '1995-12-11', '2013-05-11', 'Matematika', '3');
+	VALUES ('Kozma Andrea', 'Boros Anett', '1995-12-11', '2013-05-07', 'Matematika', '3');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Gulyás Attila', 'Máté Judit', '1994-5-22', '2013-05-11', 'Magyar', '4');
+	VALUES ('Gulyás Attila', 'Máté Judit', '1994-5-22', '2013-05-08', 'Magyar', '4');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Tamás Márta', 'Jakab Eszter', '1996-8-21', '2013-05-11', 'Zene', '5');
+	VALUES ('Tamás Márta', 'Jakab Eszter', '1996-8-21', '2013-05-10', 'Zene', '5');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
 	VALUES ('Szücs Irén', 'Major Brigitta', '1995-4-1', '2013-05-11', 'Matematika', '1');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Székely Klára', 'Sipos Magdolna', '1994-7-28', '2013-05-11', 'Magyar', '2');
+	VALUES ('Székely Klára', 'Sipos Magdolna', '1994-7-28', '2013-05-10', 'Magyar', '2');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Bognár Norbert', 'Szûcs Nikoletta', '1997-8-21', '2013-05-11', 'Zene', '3');
+	VALUES ('Bognár Norbert', 'Szûcs Nikoletta', '1997-8-21', '2013-05-10', 'Zene', '3');
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, osztalyzat)
-	VALUES ('Veres Márton', 'Illés Kinga', '1996-10-17', '2013-05-11', 'Matematika', '4');
+	VALUES ('Veres Márton', 'Illés Kinga', '1996-10-17', '2013-05-08', 'Matematika', '4');
 
 
 INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, hianyzas) 
-	VALUES ('Bogdán András', 'Fehér Magdolna', '1994-6-11', '2013-4-9', 'Matematika', 1 );
+	VALUES ('Bogdán András', 'Fehér Magdolna', '1994-6-11', '2013-05-06', 'Matematika', 1 );
+INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, hianyzas)
+	VALUES ('Kozma Andrea', 'Boros Anett', '1995-12-11', '2013-05-09', 'Matematika', 1);
+INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, hianyzas)
+	VALUES ('Bognár Norbert', 'Szûcs Nikoletta', '1997-8-21', '2013-05-08', 'Magyar', 1);
+INSERT INTO ertekeles (nev, anyja_neve, szuletes, datum, targy, hianyzas)
+	VALUES ('Kozma Andrea', 'Boros Anett', '1995-12-11', '2013-05-09', 'Zene', 1);
 
-SELECT nev, anyja_neve, evfolyam, osztaly FROM diak;
-SELECT * FROM osztaly;
-SELECT nev, datum, osztalyzat, hianyzas FROM ertekeles;
+SELECT nev AS "Név", anyja_neve AS "Anyja neve", evfolyam AS "Évfolyam", osztaly AS "Osztály" FROM diak;
+SELECT evfolyam AS "Évfolyam", osztaly AS "Osztály", osztalyfonok AS "Osztályfõnök", terem AS "Terem"
+FROM osztaly;
+SELECT nev AS "Név", datum AS "Dátum", osztalyzat AS "Osztályzat", hianyzas AS "Hiányzás" FROM ertekeles;

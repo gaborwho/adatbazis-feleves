@@ -1,4 +1,8 @@
--- Az egyes diákok hiányzásai
+SET linesize 80
+SET pagesize 25
+TTITLE "Az egyes diákok hiányzásai:"
+BTITLE "eNapló"
+
 SELECT
 	d.nev AS "Név",
 	SUM(e.hianyzas) AS "Hiányzások"
@@ -13,3 +17,8 @@ GROUP BY
 	d.nev, d.anyja_neve, d.szuletes
 ORDER BY
 	"Név";
+
+TTITLE OFF
+BTITLE OFF
+SET pagesize 40
+SET linesize 400

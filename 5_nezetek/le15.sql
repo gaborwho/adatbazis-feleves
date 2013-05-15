@@ -1,4 +1,7 @@
--- Nézet: a diákok hiányzásaikkal
+SET linesize 80
+SET pagesize 25
+TTITLE "Diákok hiányzásaikkal:"
+BTITLE "eNapló"
 
 CREATE OR REPLACE VIEW atlag
 AS
@@ -13,4 +16,13 @@ WHERE
 GROUP BY
 	d.nev, d.anyja_neve, d.szuletes;
 
-SELECT * FROM atlag;
+SELECT
+	nev AS "Név",
+	hianyzasok AS "Hiányzások"
+FROM atlag
+ORDER BY "Név";
+
+TTITLE OFF
+BTITLE OFF
+SET pagesize 40
+SET linesize 400

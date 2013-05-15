@@ -1,7 +1,7 @@
 -- Oszlop módosítása
 
 SET verify OFF
-ACCEPT &tabla "Kérem a tábla nevét: "
+ACCEPT tabla PROMPT "Kérem a tábla nevét: "
 PROMPT "A &tabla tartalma: "
 SELECT * FROM &tabla;
 ACCEPT oszlop PROMPT "Kérem a módosítandó oszlop nevét: "

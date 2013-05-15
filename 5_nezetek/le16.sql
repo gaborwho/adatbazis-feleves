@@ -1,4 +1,7 @@
--- Nézet: osztályok, átlaggal
+SET linesize 80
+SET pagesize 25
+TTITLE "Osztályok és átlagaik:"
+BTITLE "eNapló"
 
 CREATE OR REPLACE VIEW osztalyatlag
 AS
@@ -16,4 +19,14 @@ WHERE
 GROUP BY
 	o.osztaly, o.evfolyam;
 
-SELECT * FROM osztalyatlag ORDER BY osztaly, evfolyam;
+SELECT
+	evfolyam AS "Évfolyam",
+	osztaly AS "Osztály",
+	ROUND(osztalyatlag,2) AS "Átlag"
+FROM osztalyatlag
+ORDER BY "Átlag";
+
+TTITLE OFF
+BTITLE OFF
+SET pagesize 40
+SET linesize 400

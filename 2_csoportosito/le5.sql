@@ -1,4 +1,8 @@
--- A hetedik kerületben lakó, 9. után járó diákok száma, évfolyam szerint csoportosítva
+SET linesize 80
+SET pagesize 15
+TTITLE "A hetedik kerületi, kilencedik feletti diákok, évfolyam szerint:"
+BTITLE "eNapló"
+
 SELECT
 	evfolyam AS "Évfolyam",
 	COUNT(*) AS "Hetedik kerületi lakosok"
@@ -12,3 +16,8 @@ HAVING
 	evfolyam > 9
 ORDER BY 
 	"Hetedik kerületi lakosok" DESC;
+
+TTITLE OFF
+BTITLE OFF
+SET pagesize 40
+SET linesize 400
