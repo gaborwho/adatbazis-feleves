@@ -1,0 +1,15 @@
+A rendszer elsősorban a diákok tanulmányi adatait tartalmazza, így az ősmodellben a diákok szempontjából közelítem meg:
+értékelés{osztályzat, hiányzás, dátum, tárgy, név, anyja_neve, születés, évfolyam, osztály, irányítószám, lakcím, osztályfőnök, terem}
+Az adatok közt az alábbi függőségeket fedeztem fel:
+fosztály{évfolyam, osztály} → {osztályfőnök, terem}
+fdiák{név, anyja_neve, születés} → {évfolyam, osztály, irányítószám, lakcím}
+fértékelés{név, anyja_neve, születés, dátum, tárgy} → {osztályzat, hiányzás}
+Normalizálás:
+1NF: az fdiák függőség 1NF-ben van, mivel nincs benne összetett attribútum.
+2NF: a függőségek 2NF-ben vannak, mivel az összefüggések jobb oldalán álló tulajdonságok mindegyike függ az összes kulcstól.
+3NF: a függőségek 3NF-ben vannak, mivel nincs bennük belső összefüggés.
+BCNF: mivel a függőségek 3NF-ben vannak és az összefüggések bal oldalán egyetlen tulajdonság, vagy ezek halmaza sem függ elsődleges vagy másodlagos attribútumtól.
+Eredmény modell:
+osztály<évfolyam, osztály, osztályfőnök, terem>
+diák<név, anyja_neve, születés, évfolyam, osztály, irányítószám, lakcím>
+értékelés<név, anyja_neve, születés, dátum, tárgy, osztályzat, hiányzás>
