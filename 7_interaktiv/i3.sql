@@ -9,4 +9,6 @@ ACCEPT tipus PROMPT "Kérem az új oszlop típusát: "
 
 ALTER TABLE &tabla ADD (&oszlop &tipus);
 
+SELECT * FROM &tabla;
+
 SET VERIFY ON

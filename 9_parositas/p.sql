@@ -25,6 +25,8 @@ WHERE
 	t.anyja_neve = a.anyja_neve AND
 	t.szuletes = a.szuletes;
 
+DECLARE
+	parnev tanuloparok.par_nev%TYPE;
 BEGIN
 FOR i IN (
 	SELECT * FROM diakatlag

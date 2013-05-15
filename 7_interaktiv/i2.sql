@@ -8,4 +8,6 @@ ACCEPT feltetel PROMPT "Kérem a törlés feltételét: "
 
 DELETE FROM &tabla WHERE &feltetel;
 
+SELECT * FROM &tabla;
+
 SET VERIFY ON

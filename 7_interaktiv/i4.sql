@@ -9,4 +9,6 @@ ACCEPT parameterek PROMPT "Kérem a módosítás paramétereit: "
 
 ALTER TABLE &tabla MODIFY (&oszlop &parameterek);
 
+SELECT * FROM &tabla;
+
 SET VERIFY ON
